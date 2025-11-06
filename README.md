@@ -9,23 +9,24 @@ A macOS SwiftUI app with a Widget Extension that displays storage capacity infor
 
 ## Building and Testing
 
-### Xcode Steps
+### Xcode Actions
 
 1. **Product → Clean Build Folder** (⇧⌘K)
 
-2. Select **StorageWidgetApp** scheme → Run (⌘R) once (this installs the app)
+2. Select **StorageWidgetApp** scheme → Run (⌘R) once (installs host app)
 
-3. Build **StorageWidgetExtension** target
+3. Build the **StorageWidgetExtension** target
 
-### macOS Steps
+### macOS Actions
 
-- Right-click desktop → **Edit Widgets** → search "StorageWidget" → add
+- Right-click desktop → **Edit Widgets** → search "Storage Capacity" or "StorageWidget" → add
 
-If not visible: run in Terminal:
-```bash
-killall Dock; killall NotificationCenter
-```
-then re-open Edit Widgets and try again.
+If not visible:
+- Run in Terminal:
+  ```bash
+  killall Dock; killall NotificationCenter
+  ```
+- Reopen Edit Widgets and add again
 
 ## Features
 
