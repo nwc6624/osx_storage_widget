@@ -91,17 +91,17 @@
 /* Begin PBXNativeTarget section */
 		6FDF945E /* StorageWidgetApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1768246C /* Build configuration list for PBXNativeTarget "StorageWidgetApp" */;
+			buildConfigurationList = 5747768F /* Build configuration list for PBXNativeTarget "StorageWidgetApp" */;
 			buildPhases = (
-				85D0323A /* Sources */,
+				9CA24B97 /* Sources */,
 				578D3653 /* Frameworks */,
-				7E045FE8 /* Resources */,
+				C0F3F636 /* Resources */,
 				4F47D671 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DEECEBF /* PBXTargetDependency */,
+				DDB36249 /* PBXTargetDependency */,
 			);
 			name = StorageWidgetApp;
 			productName = StorageWidgetApp;
@@ -110,11 +110,11 @@
 		};
 		0C19FDDE /* StorageWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837A7782 /* Build configuration list for PBXNativeTarget "StorageWidgetExtension" */;
+			buildConfigurationList = A6BB819F /* Build configuration list for PBXNativeTarget "StorageWidgetExtension" */;
 			buildPhases = (
-				6809AE1F /* Sources */,
+				6D2784B3 /* Sources */,
 				C20F6E7B /* Frameworks */,
-				B543C1BE /* Resources */,
+				96AA9F42 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,7 +128,7 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0912CF0F /* Project object */ = {
+		53131C2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24ED1F04 /* Build configuration list for PBXProject "StorageWidgetApp" */;
+			buildConfigurationList = CAD32355 /* Build configuration list for PBXProject "StorageWidgetApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,14 +177,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7E045FE8 /* Resources */ = {
+		C0F3F636 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B543C1BE /* Resources */ = {
+		96AA9F42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +195,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85D0323A /* Sources */ = {
+		9CA24B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,7 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6809AE1F /* Sources */ = {
+		6D2784B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,17 +216,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9DEECEBF /* PBXTargetDependency */ = {
+		DDB36249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0C19FDDE /* StorageWidgetExtension */;
-			targetProxy = 6809AE1F /* PBXContainerItemProxy */;
+			targetProxy = C0C9535A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXContainerItemProxy section */
-		6809AE1F /* PBXContainerItemProxy */ = {
+		C0C9535A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0912CF0F /* Project object */;
+			containerPortal = 53131C2F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C19FDDE;
 			remoteInfo = StorageWidgetExtension;
@@ -234,7 +234,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin XCBuildConfiguration section */
-		24ED1F04 /* Debug */ = {
+		DDB36249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		0B1EAD64 /* Release */ = {
+		C0C9535A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,7 +400,7 @@
 			};
 			name = Release;
 		};
-		837A7782 /* Debug */ = {
+		36211A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = StorageWidgetExtension/StorageWidgetExtension.entitlements;
@@ -426,7 +426,7 @@
 			};
 			name = Debug;
 		};
-		6809AE1F /* Release */ = {
+		D091F79F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = StorageWidgetExtension/StorageWidgetExtension.entitlements;
@@ -455,16 +455,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24ED1F04 /* Build configuration list for PBXProject "StorageWidgetApp" */ = {
+		CAD32355 /* Build configuration list for PBXProject "StorageWidgetApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24ED1F04 /* Debug */,
-				0B1EAD64 /* Release */,
+				DDB36249 /* Debug */,
+				C0C9535A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1768246C /* Build configuration list for PBXNativeTarget "StorageWidgetApp" */ = {
+		5747768F /* Build configuration list for PBXNativeTarget "StorageWidgetApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FDF945E /* Debug */,
@@ -473,17 +473,17 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837A7782 /* Build configuration list for PBXNativeTarget "StorageWidgetExtension" */ = {
+		A6BB819F /* Build configuration list for PBXNativeTarget "StorageWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				837A7782 /* Debug */,
-				6809AE1F /* Release */,
+				36211A15 /* Debug */,
+				D091F79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0912CF0F /* Project object */;
+	rootObject = 53131C2F /* Project object */;
 }
 
