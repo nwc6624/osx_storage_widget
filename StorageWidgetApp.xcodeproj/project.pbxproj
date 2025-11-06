@@ -13,6 +13,7 @@
 		9DEECEBF /* StorageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6809AE1F /* StorageWidget.swift */; };
 		0912CF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B543C1BE /* Assets.xcassets */; };
 		6B177B44 /* StorageWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B1EAD64 /* StorageWidgetExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		316E651F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F74EDA /* WidgetKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4CF97875 /* StorageWidgetApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StorageWidgetApp.entitlements; sourceTree = "<group>"; };
 		3DE1D99B /* StorageWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StorageWidgetExtension.entitlements; sourceTree = "<group>"; };
 		546AEBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F74EDA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316E651F /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +420,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.StorageWidgetApp.StorageWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +447,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.StorageWidgetApp.StorageWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";

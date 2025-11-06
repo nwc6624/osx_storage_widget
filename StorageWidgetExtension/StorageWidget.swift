@@ -10,13 +10,15 @@ struct Provider: TimelineProvider {
   func placeholder(in context: Context) -> StorageEntry {
     StorageEntry(date: .now, percent: 0.88)
   }
+
   func getSnapshot(in context: Context, completion: @escaping (StorageEntry) -> Void) {
-    completion( StorageEntry(date: .now, percent: 0.88) )
+    completion(StorageEntry(date: .now, percent: 0.88))
   }
+
   func getTimeline(in context: Context, completion: @escaping (Timeline<StorageEntry>) -> Void) {
     let entry = StorageEntry(date: .now, percent: 0.88)
     let next  = Calendar.current.date(byAdding: .minute, value: 30, to: .now)!
-    completion( Timeline(entries: [entry], policy: .after(next)) )
+    completion(Timeline(entries: [entry], policy: .after(next)))
   }
 }
 
@@ -55,4 +57,3 @@ struct StorageWidget: Widget {
     .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
   }
 }
-

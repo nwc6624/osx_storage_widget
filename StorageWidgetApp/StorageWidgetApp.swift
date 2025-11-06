@@ -6,4 +6,3 @@ struct StorageWidgetApp: App {
     WindowGroup { ContentView() }
   }
 }
-
